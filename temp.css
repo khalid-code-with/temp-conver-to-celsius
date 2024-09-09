@@ -1,0 +1,100 @@
+/* body{
+    padding: 50px  100px ;
+}
+h1{
+    text-align: center;
+}
+#container{
+    text-align: center;
+    padding: 49px;
+    background-color: #1abc9c;
+    box-sizing: border-box;
+}
+.input_div{
+    display:inline-block;
+    box-sizing: border-box;
+}
+.inp{
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+    text-align: center;
+    box-sizing: border-box;
+}
+label{
+    font-size: 22px;
+    color:#FFFFFF;
+    box-sizing: border-box;
+} */
+ /* ====================================== */
+ /* chatghpt */
+ /* temp.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    color: #4a90e2;
+    text-shadow: 1px 1px 2px #aaa;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input_div {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+    font-size: 1.1rem;
+}
+
+.inp {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #4a90e2;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.inp:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+input[type="number"] {
+    -moz-appearance:textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
